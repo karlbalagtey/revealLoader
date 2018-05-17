@@ -26,6 +26,21 @@ RevealLoader.load('.selector', '95%');
 
 "95%" is the Waypoint offset. 
 
+Add this to your CSS/SASS/LESS
+
+```
+.reveal-item {
+	opacity: 0;
+	transition: all .6s ease-out;
+	transform: translate(0, 10rem);
+
+	&-is-visible {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+```
+
 ## Built With
 * Javascript
 
