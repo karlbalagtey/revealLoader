@@ -1,0 +1,28 @@
+{
+  "name": "reveal-loader",
+  "version": "1.0.0",
+  "description": "Reveal items on scroll",
+  "main": "revealLoader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlbalagtey/revealLoader.git"
+  },
+  "keywords": [
+    "scroll",
+    "reveal",
+    "es6"
+  ],
+  "author": "Karl Mark Balagtey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlbalagtey/revealLoader/issues"
+  },
+  "homepage": "https://github.com/karlbalagtey/revealLoader#readme",
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "waypoints": "^4.0.1"
+  }
+}
