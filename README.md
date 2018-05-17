@@ -4,7 +4,8 @@ Reveal elements on scroll
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This loader uses Waypoints. Adds class ".reveal-item" and ".reveal-item-is-visible".
+
 
 
 ### Installing
@@ -18,12 +19,12 @@ npm install reveal-loader
 Then import the module in your project. For example:
 
 ```
-import TouchLoader from 'reveal-loader';
+import RevealLoader from 'reveal-loader';
 
-new RevealLoader();
+RevealLoader.load('.selector', '95%');
 ```
 
-
+"95%" is the Waypoint offset. 
 
 ## Built With
 * Javascript
